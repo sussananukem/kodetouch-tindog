@@ -6,6 +6,10 @@ body{
   background-color: #00003d;
 }
 
+#title .container-fluid{
+  padding-bottom: 7%;
+}
+
 .container-fluid{
   padding: 3% 15%;
 }
@@ -16,6 +20,11 @@ body{
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
+h2, h3{
+  font-weight: bold;
+}
+
 
 
 /* NAVIGATION BAR */
@@ -49,15 +58,19 @@ body{
 
 /* TITLE IMAGE */
 .title-image{
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 /* FEATURES */
 #features{
    text-align: center;
    padding: 5% 0;
-}
+   background-color: white;
+   position: relative;
+ }
 
 .ft{
   padding: 4.55%;
@@ -73,10 +86,59 @@ body{
 }
 
 .ht-text{
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
 .ft p{
   color: #8f8f8f;
 }
+
+/* TESTIMONIALS */
+
+#testimonials{
+  background-color: #2bc48a;
+  text-align: center;
+  padding-top: 7%;
+  color: white;
+
+}
+
+#testimonials h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS */
+
+#press{
+  background-color: #2bc48a;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px;
+ }
+
+
+/* PRICING */
+
+#pricing{
+  text-align: center;
+  padding-top: 100px;
+ }
+
+
+ /* EDIT OR DELETE LATER */
+
+ #cta, #footer{
+   background-color: #00003d;
+   color: white;
+ }
