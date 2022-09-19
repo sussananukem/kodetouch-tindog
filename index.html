@@ -44,19 +44,23 @@
           <!-- ms-auto only worked on the unordered list by adding space to its starting point -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -153,7 +157,7 @@
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
-    <div class="row mt-5">
+    <div class="row mt-5 ">
 <!-- CARD 1. -->
       <div class="col-lg-4 col-md-6">
         <div class="card">
@@ -172,7 +176,7 @@
       </div>
 
       <!-- CARD 2. -->
-      <div class="col-lg-4 col-md-6 ">
+      <div class="col-lg-4 col-md-6 p-container">
         <div class="card">
           <div class="card-header">
             <h3>Labrador</h3>
@@ -189,7 +193,7 @@
       </div>
 
       <!-- CARD 3. -->
-      <div class="col-lg-4 ">
+      <div class="col-lg-4 p-container t-container">
         <div class="card">
           <div class="card-header">
             <h3>Mastiff</h3>
@@ -214,9 +218,9 @@
 
   <!-- Call to Action -->
 
-  <section id="cta" class="container-fluid text-center">
+  <section id="cta" class="container-fluid text-center mt-5 py-5">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <h3 class="pt-5">Find the True Love of Your Dog's Life Today.</h3>
     <button class="btn btn-success btn-lg download-btn" type="button"> <i class="fa-brands fa-apple"></i> Download</button>
     <button class="btn btn-outline-light btn-lg download-btn" type="button"> <i class="fa-brands fa-google-play"></i> Download</button>
   </section>
@@ -224,10 +228,12 @@
 
   <!-- Footer -->
 
-  <footer id="footer" class="text-center">
-
-    <p>© Copyright KodeTouch</p>
-
+  <footer id="footer" class="text-center py-5 mt-5">
+    <span><a href="https://mobile.twitter.com/AnukemSussan"><i class="fa-brands fa-twitter"></i></a></span>
+    <span><a href="https://www.facebook.com/sussan.anukem.5"><i class="fa-brands fa-facebook-f ps-3"></i></a></span>
+    <span><a href="https://www.instagram.com/sussananukem/"><i class="fa-brands fa-instagram ps-3"></i></a></span>
+    <span><a href="mailto:sussananukem21@outlook.com"><i class="fa-solid fa-envelope ps-3"></i></a></span>
+    <p class="pt-4">© Copyright 2022 Sussan Anukem</p>
   </footer>
 
 
