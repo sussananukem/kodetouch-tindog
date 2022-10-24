@@ -42,13 +42,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #features {
-    text-align: inherit;
-  }
 
-  #testimonials h2 {
-    font-size: 2rem;
-  }
+  /* Title */
 
   .h-text {
     font-size: 3.5rem;
@@ -58,6 +53,7 @@
     width: 30%;
   }
 
+  /* Pricing */
   .p-container {
     padding-top: inherit;
   }
@@ -66,8 +62,19 @@
     padding-top: 10%;
   }
 
+  /* Press */
   .press-img {
     margin: 20px 20px;
+  }
+
+  /* Features */
+  #features {
+    text-align: inherit;
+  }
+
+  /* Testimonials */
+  #testimonials h2 {
+    font-size: 2rem;
   }
 
 }
@@ -116,6 +123,16 @@ body {
   font-family: 'Montserrat';
 }
 
+h2, h3 {
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* TITLE */
+
 #title {
   background-color: #00003d;
 }
@@ -124,19 +141,13 @@ body {
   padding-bottom: 7%;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
-
 .h-text {
   font-family: 'Montserrat';
   font-weight: 900;
   line-height: 1.5;
 }
 
-h2, h3 {
-  font-weight: bold;
-}
+
 
 /* NAVIGATION BAR */
 .navbar {
